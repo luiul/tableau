@@ -6,6 +6,8 @@ Tableau for data analytics. Tableau is a drag-and-drop software and a novel appr
 
 ## Course structure
 
+<details>
+<summary>Course Stucture</summary>
 1. Get Started
    1. Course Overview
    2. Installation
@@ -78,3 +80,12 @@ Tableau for data analytics. Tableau is a drag-and-drop software and a novel appr
     11. Mobile Features
     12. Recap
 9.  Conclusion
+</details>
+
+<br>
+
+# Course Content
+
+## Tableau Basics: Bar Chart
+
+Challenge: Find out top three employees in each region. Employees are measure on total sales.
