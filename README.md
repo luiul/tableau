@@ -7,7 +7,7 @@ Tableau for data analytics. Tableau is a drag-and-drop software and a novel appr
 ## Course structure
 
 <details>
-<summary>Course Stucture</summary>
+<summary>Course Structure</summary>
 
 1. Get Started
    1. Course Overview
@@ -84,8 +84,48 @@ Tableau for data analytics. Tableau is a drag-and-drop software and a novel appr
 
 </details>
 
-# Course Content
+## Tableau Basics
 
-## Tableau Basics: Bar Chart
+[Download datasets](https://www.artofvisualization.com/pages/tableau). **Challenge**: Identify the top three employees in each region. Employees are measured against total sales.
 
-Challenge: Find out top three employees in each region. Employees are measure on total sales.
+In the Data tab we see **Dimensions** and **Measures**. These are different roles any data element can take.
+
+- Dimensions include categorical (qualitative) data. These are independent variables; highlighted blue. 
+- Measures include numerical values. These are dependent variables; highlighted green. 
+
+Right click on Measures and create a calculated field. 
+
+Presentation (**Color**) and ease of understanding (**Labels and Formatting**) are very important to effectively communicate with our visualization. 
+
+We can format Label over the Mark menu or by right clicking on the label (or axis). 
+
+## Time Series, Aggregation and Filters
+
+When dealing with the time axis (in Columns) we can aggregate by year as a category (Dimensions) or as a numerical value (Measures). Tableau highlights the field differently depending on the type. 
+
+Tableau aggregates measures at the level of granularity of your worksheet. The level of granularity is set by: 
+
+- Columns
+- Color
+- Detail 
+- Shapes (in Shape Plot)
+
+Filters are an option but Measures as filters are usually the better choice. 
+
+## Maps, Scatterplots, and Dashboards
+
+**Update**: When dragging different sheets to our data source Tableau creates a Relationship (previously a Join). Now there is a logic layer for tables. By double clicking the sheet we can go to the physical layer and join or union tables in the sheets. 
+
+Tableau aggregates by default. We have to options to see more granular data: 
+
+- Go to `Analyis > Aggregate Measures`
+- Change the Columns, Color, Detail, or Shape int he worksheet
+
+There are two types of action for the user to interact with a dashboard. The most basic ones are: 
+
+- Filtering 
+- Highlighting
+
+## Joining, Blending and Relationships
+
+Continue here! 
